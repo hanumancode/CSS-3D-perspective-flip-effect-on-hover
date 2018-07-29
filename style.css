@@ -14,7 +14,7 @@ body {
 .container {
 	width: 250px;
 	height: 350px;
-	background: url(img1.jpg);
+	background: url(img3.jpg);
 	position: relative;
 	left: 50%;
 	top: 50%;
@@ -46,12 +46,10 @@ figure {
 }
 
 figure.front {
-	/*background: red;*/
 	background: url(img1.jpg);
 }
 
 figure.back {
-	/*background: green;*/
 	background: url(img2.jpg);
 	transform: rotateY(180deg);
 }
